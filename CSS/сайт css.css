@@ -15,6 +15,6 @@ box-shadow:0 0 3px #ffffff;
 
 body{
 	background-color:#999999;
-background-image:url(images/horse.png);
+background-image:url(../images/horse.png);
 background-position:left top;
 }
