@@ -1,0 +1,21 @@
+div{
+background-color:#ffffff;
+width:1200px;
+margin:100px auto;
+padding:50px;
+padding-bottom:500px;
+border-radius:100px;
+box-shadow:0 0 3px #ffffff;
+}
+p{
+	font-size:25px;
+	font-weight:bold;
+}
+
+
+
+body{
+	background-color:#999999;
+background-image:url(../images/horse.png);
+background-position:left top;
+}
