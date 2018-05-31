@@ -1,8 +1,8 @@
-div{
+#text{
 background-color:#ffffff;
-width:auto;
-min-width:500px;
-margin:100px 300px;
+width:1280px;
+margin:100px auto;
+min-margin:100px 200px;
 padding:50px;
 padding-bottom:500px;
 border-radius:100px;
@@ -12,8 +12,31 @@ p{
 	font-size:25px;
 	font-weight:bold;
 }
-
-
+.submenu{
+	display:none;
+	list-style-type:none;
+}
+li:hover>.submenu{
+display:block;	
+}
+#blockmenu{
+	
+	border:5px dashed red;
+	background-color:green;
+	
+}
+.menu {
+	display:inline-block;
+	border:3px solid blue;
+	list-style-type:none;
+	background-color:#ff8800;
+	padding:5px 10px;	
+	margin:10px 40px;
+}
+a{
+	font-size:20px;
+	text-decoration:none;
+}
 
 body{
 	background-color:#999999;
