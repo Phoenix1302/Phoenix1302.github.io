@@ -1,8 +1,8 @@
-#text{
+.container{
 background-color:#ffffff;
-width:1280px;
-margin:100px auto;
-min-margin:100px 200px;
+min-width: 450px;
+max-height: 800px;
+margin:100px 200px;
 padding:50px;
 padding-bottom:500px;
 border-radius:100px;
@@ -15,21 +15,24 @@ p{
 .submenu{
 	display:none;
 	list-style-type:none;
+    
+    
 }
-li:hover>.submenu{
+li:hover >.submenu{
 display:block;	
 }
 #blockmenu{
 	
-	border:5px dashed red;
-	background-color:green;
-	
+	border:5px dotted red;
+	background-color:#22ff00;
+    min-width:400px;
+    height:60px;
 }
 .menu {
 	display:inline-block;
 	border:3px solid blue;
 	list-style-type:none;
-	background-color:#ff8800;
+	background-color:#ffaa00;
 	padding:5px 10px;	
 	margin:10px 40px;
 }
@@ -37,9 +40,45 @@ a{
 	font-size:20px;
 	text-decoration:none;
 }
+.block1{
+ position: absolute;
+    
+    
+}
+.block2{
+   
+    position:absolute;
+    left:565px;
+    top:233px;
+
+}
+.block3{
+    position:absolute;
+    top:233px;
+    left:400px;
+}
+.container2{
+    margin-top:10px;
+    background-color:blue;
+}
+.colum1{
+    border:3px solid black;
+    float:left;
+    margin-right:20px;
+    background-color: green;
+}
+.colum2{
+    border:3px solid black;
+    float:left;
+    background-color: green;
+}
+.clearfix{
+    clear:both;
+}
 
 body{
-	background-color:#999999;
-background-image:url(../images/horse.png);
+	background-color:#00ff00;
+background-image:url(../images/apple.png);
+background-size:64px 64px;
 background-position:left top;
 }
