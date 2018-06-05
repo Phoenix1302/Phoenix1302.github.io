@@ -1,0 +1,98 @@
+.header{
+    border:3px solid red;
+    height:55px;
+   
+}
+.menubox{
+    float:left;
+    width:150px;
+    background: #eeeeee;
+}
+
+.head{
+    float:left;
+    width:100%;
+    max-width: 1748px; 
+    background-image:url(../images/head.png);
+    background-color: lightgreen;
+    background-repeat:no-repeat;
+    height:100%;
+}
+.content{
+    min-height:300px;
+}
+.glavs{
+    float:left;
+    position:fixed;
+    top:100px;
+    left:0px;
+    border:1px dashed black;
+    background: #30d5c8;
+}
+.glavs li{
+    border:1px solid blue;
+    list-style: none;
+    background: #0088ff;
+}
+.glavs a{
+    color:white;
+}
+.glavs ol{
+    padding:0;
+}
+span{
+    padding: 10px;
+    font-weight:bold;
+}
+.text{
+    float:left;
+   width:800px;
+   padding-left:130px; 
+    
+}
+.footer{
+    border:3px solid yellow;
+    background-image:url(../images/head.png);
+    background-color:#ccff00;
+        height:50px;
+}
+.clearfix::after{
+    display:table;
+    content:"";
+    clear:both;
+}
+.layout-positioner{
+    margin:auto;
+}
+.submenu{
+    padding:0;
+    display:none;
+}
+li a{
+    text-decoration: none;
+}
+ .menu li:hover >.submenu{
+    display:block;
+} 
+.menu li{
+   list-style:none;
+}
+.name{
+    font-style: italic;
+    font-weight: bold;
+}
+h1, p{
+    font-family: Calibri;
+    position:relative;
+    left:500px;
+}
+.menu a{
+    font-size: 20px;
+}
+.submenu a:hover{
+    text-decoration:underline;
+}
+.submenu a:active{
+    background: #0088cc;
+    color:white;
+}
